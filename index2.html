@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お知らせ①|のむら食堂</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="style.css">
+</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+                slideWidth: 375,
+            });
+        });
+  </script>
+<body>
+  <div class="container">
+    <!-- ヘッダー部分 -->
+    <header class="header">
+    </header>
+    
+    <!-- スクロール可能な中央部分 -->
+    <main class="content">
+        <section class="name">
+            <img src="./img/top_nomura.jpg" alt="食堂">
+        </section>
+
+        <section class="news1">
+            <div class="news1_title">
+                <p>大型のアジが釣れています</p>
+            </div>
+            <div>
+                <p>釣り人のみなさん朗報です。<br>池島の湾内で大型のアジが釣れています。<br>30センチ以上が釣れています。<br>サビキで釣れます。<br>釣りのあとはのむら食堂に<br>持ち込んでください。</p>
+            </div>
+            <div class="return">
+                <a href="./index.html">もどる</a>
+            </div>
+        </section>
+
+ 
+        <footer class="footer">
+          <p>©nomura_dining</p>
+        </footer>
+
+
+    </main>
+  </div>
+</body>
+</html>
