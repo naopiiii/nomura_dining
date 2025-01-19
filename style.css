@@ -36,6 +36,10 @@ body, html {
       width: 100%;
     }
   }
+
+.content img {
+  width: 100%;
+}
   
 .name {
   background-color: #333;
@@ -280,6 +284,7 @@ body, html {
 
 .map {
   background-color: #fff;
+  width: 100%;
 }
 
 .map iframe{
